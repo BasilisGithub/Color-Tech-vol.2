@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav {
+    background-color: black;
+}
+
+.nav .container {
+    display: flex;
+}
+
+.nav .container img {
+    width: 130px;
+    clip-path: inset(30px);
+}
+
+.nav .container .bar {
+    display: flex;
+    padding-left: 610px;
+    padding-top: 70px;
+}
+
+.nav .container .bar li {
+    list-style: none;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.nav .container .bar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav .container .bar li:hover {
+    text-shadow: 1px 1px 5px white;
+    transition: 0.3s;
+}
+
+.start .container .fondo img {
+    width: 1499px;
+    z-index: -1;
+    margin-bottom: -700px;
+}
+
+.start .container .logo img {
+    width: 600px;
+    margin-bottom: -130px;
+}
+
+.start .container h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 164px;
+}
+
+.tables {
+    background-image: url(img\ &\ mp4/fondo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tables .container {
+    text-align: center;
+}
+
+.tables .container h1 {
+    padding-bottom: 30px;
+    padding-top: 100px;
+    color: white;
+}
+
+.tables .container table tr th, td {
+   padding: 3px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 3px;
+   padding-right: 3px;
+   border: double 3px black;
+   color: white;
+   font-size: 14px;
+}
+
+.tables .container button {
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(212, 85, 85);
+    color: white;
+}
+
+.tables .container button:hover {
+    box-shadow: 1px 1px 5px rgb(79, 150, 255);
+    transition: 0.3s;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer .container {
+    text-align: right;
+}
+
+.footer .container img {
+    float: left;
+    width: 180px;
+    padding-left: 250px;
+    padding-top: 5px;
+}
+
+.footer .container p {
+    font-size: 15px;
+    color: white;
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    clip-path: inset(30px);
+}
